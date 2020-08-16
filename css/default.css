@@ -7,23 +7,23 @@ body{
 }
 
 header{
-    background-color: #FFFFFF;
+    background-color: rgba(255, 222, 89, .75);
     color: #FFDE59; /*Joy Valley Logo Color*/
     padding:1% 5%;
 
-    height: 125px;
+    height: 200px;
 }
 
 header img{
     width: 200px;
-    display: none;
+    display: inline-block;
 }
 
 header h1{
     font-family: Satisfy, cursive;
     font-weight: bold;
     font-size:50px;
-    display: inline-block;
+    display: none;
     width: auto;
     float:  left;
 }
@@ -46,81 +46,21 @@ header nav a{
 }
 
 header nav a:hover{
-    border-bottom: solid #FFDE59 4px;
+    border-bottom: solid #D25340 4px;
 }
 
 header nav a.current{
-    border-bottom: solid #FFDE59 4px;
+    border-bottom: solid #D25340 4px;
 }
 
 footer{
-    background-color: #FFFFFF;
+    background-color: rgba(255, 222, 89, .75);
     padding:1% 5%;
 }
 
 main{
     padding: 1% 5%;
     clear: both;
-}
-
-div.imageShow{
-    display: inline-block;
-    width: 500px;
-    height: 320px;
-    overflow: hidden;
-    margin: 0 2%;
-
-    border-radius: 50px;
-}
-
-div.fresumis{
-    float:right;
-}
-
-div.imageShow img{
-    border-radius: 50px;
-    width: 100%;
-    display: flex;
-    filter: brightness(75%);
-}
-
-div.imageShow div{
-    position: relative;
-    top: -80%;
-
-    text-align: center;
-}
-
-div.imageShow div h4{
-    color: #FFFFFF;
-    font-family: Satisfy, cursive;
-    font-weight: bold;
-    font-size:50px;
-    text-decoration: underline;
-
-    margin:0px;
-}
-
-div.imageShow div p{
-    color: #FFFFFF;
-    font-size: 20px;
-}
-
-div.imageShow div a{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #FFDE59;
-    padding: 15px;
-}
-
-div.imageShow div a:hover{
-    padding: 17px;
-}
-
-div.imageShow div a:active{
-    padding: 14px;
 }
 
 a{

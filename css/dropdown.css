@@ -1,0 +1,24 @@
+header nav a, header nav .dropdown{
+    display: inline-block;
+}
+
+header nav .dropdown .dropitems{
+    position: absolute;
+    display: none;
+}
+
+header nav .dropdown .dropitems a{
+    display: block;
+}
+
+header nav .dropdown:hover .dropitems{
+    display: block;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}

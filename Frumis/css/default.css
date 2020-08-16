@@ -1,0 +1,138 @@
+
+body{
+    background-color: rgba(255, 222, 89, .25);
+    margin: 0px;
+
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: #FFFFFF;
+    color: #FFDE59; /*Joy Valley Logo Color*/
+    padding:1% 5%;
+
+    height: 125px;
+}
+
+header img{
+    width: 200px;
+    display: none;
+}
+
+header h1{
+    font-family: Satisfy, cursive;
+    font-weight: bold;
+    font-size:50px;
+    display: inline-block;
+    width: auto;
+    float:  left;
+}
+
+header nav{
+    float:right;
+    font-size:20px;
+    padding: 5% 0;
+    font-family: sans-serif;
+    width: 60%;
+    text-align: right;
+}
+
+header nav a{
+    color: #505050;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin-left: 5%;
+}
+
+header nav a:hover{
+    border-bottom: solid #FFDE59 4px;
+}
+
+header nav a.current{
+    border-bottom: solid #FFDE59 4px;
+}
+
+footer{
+    background-color: #FFFFFF;
+    padding:1% 5%;
+}
+
+main{
+    padding: 1% 5%;
+    clear: both;
+}
+
+div.imageShow{
+    display: inline-block;
+    width: 45%;
+    height: 320px;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+div.imageShow img{
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+    filter: brightness(75%);
+}
+
+div.imageShow div{
+    position: relative;
+    top: -80%;
+
+    text-align: center;
+}
+
+div.imageShow div h4{
+    color: #FFFFFF;
+    font-family: Satisfy, cursive;
+    font-weight: bold;
+    font-size:50px;
+    text-decoration: underline;
+
+    margin:0px;
+}
+
+div.imageShow div p{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+div.imageShow div a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFDE59;
+    padding: 15px;
+}
+
+div.imageShow div a:hover{
+    padding: 17px;
+}
+
+div.imageShow div a:active{
+    padding: 14px;
+}
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+h2{
+    color: #D25340;
+    border-bottom: solid #D25340 3px;
+    text-align: center;
+
+    font-family: Satisfy, cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h3{
+    color: #D25340;
+}
